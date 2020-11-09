@@ -1,0 +1,29 @@
+{
+	"name": "google-api-types",
+	"version": "1.0.0",
+	"description": "API Typings for Google Developer products",
+	"scripts": {
+		"build": "rm -rf out && tsc --build",
+		"style": "prettier -w . && eslint --fix"
+	},
+	"keywords": [
+		"typings",
+		"types",
+		"api"
+	],
+	"author": "Bread <developernamedbread@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^7.13.0",
+		"prettier": "^2.1.2",
+		"typescript": "^4.0.5"
+	},
+	"prettier": {
+		"printWidth": 100,
+		"semi": true,
+		"singleQuote": true,
+		"tabWidth": 4,
+		"trailingComma": "none",
+		"useTabs": true
+	}
+}
